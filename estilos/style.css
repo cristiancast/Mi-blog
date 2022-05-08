@@ -78,34 +78,16 @@ table {
     width: 500px;
 }
 
-
-/*==================Configuración de las Ids==================*/
-
-
-
-
-
-
-
-
-
-
-#cabecera{
-    background-color: #17252A;
-    height: auto;
-    border-radius:0em;
-    max-width: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.pasatiempo p{
+    text-align: center;
 }
 
-#fotoPerfil{
-    border-radius: 9999px;
-    height: 100px;
-    object-fit: cover;
-    margin: 1rem;
+/* Dando formato a la tabla de estudios */
+.tablaEstudios {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    min-height: 40vw;
 }
 
 .navegacionPrin{
@@ -139,6 +121,39 @@ table {
 }
 
 
+/*==================Configuración de las Ids==================*/
+#cabecera{
+    background-color: #17252A;
+    height: auto;
+    border-radius:0em;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* ajustando el formulario */
+#contenedorformulario{
+    display: flex;
+    justify-content: center;
+}
+
+#formulario{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#fotoPerfil{
+    border-radius: 9999px;
+    height: 100px;
+    object-fit: cover;
+    margin: 1rem;
+}
+
 #contenido{
     max-width: 90%;
     margin: auto;
@@ -153,8 +168,7 @@ table {
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: .5em;
-    padding-left: 15px;
-    padding-top: 15px;
+    padding: 15px;
     min-height: 500px;
     border: 1px solid;
     border-color: black;
@@ -179,15 +193,4 @@ table {
     max-width: 90%;
     margin:auto;
     text-align: center;
-}
-
-
-
-/* Dando formato a la tabla de estudios */
-  
-.tablaEstudios {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 3rem;
-    min-height: 40vw;
 }
