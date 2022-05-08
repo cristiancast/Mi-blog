@@ -63,12 +63,6 @@ table {
 /* estilando imágenes y parrafos de los pasatiempos */
 .pasatiempo{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 16px;
-}
-
-.pasatiempo-invertido{
-    display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 16px;
 }
