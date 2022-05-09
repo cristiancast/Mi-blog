@@ -83,7 +83,7 @@ table {
 /* moviendo los textos de pasatiempos a conveniencia */
 .pasatiempo p{
     text-align: center;
-    transform: translateX(10%) translateY(30%);
+    transform: translateX(8%) translateY(30%);
 }
 .pasatiempo-invertido p{
     text-align: center;
