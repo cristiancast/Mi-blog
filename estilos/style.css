@@ -66,14 +66,28 @@ table {
     grid-template-columns: 2fr 1fr;
     gap: 16px;
 }
+.pasatiempo-invertido{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 16px;
+}
 
 /* estableciendo tamaño de imágenes de pasatiempos */
 .pasatiempo img{
-    width: 500px;
+    width: 450px;
+}
+.pasatiempo-invertido img{
+    width: 450px;
 }
 
+/* moviendo los textos de pasatiempos a conveniencia */
 .pasatiempo p{
     text-align: center;
+    transform: translateX(10%) translateY(30%);
+}
+.pasatiempo-invertido p{
+    text-align: center;
+    transform: translateX(-8%) translateY(30%);
 }
 
 /* Dando formato a la tabla de estudios */
@@ -113,6 +127,7 @@ table {
     color: #ffffff;
     text-shadow: 0.1em 0.1em 0.2em black;
 }
+
 
 
 /*==================Configuración de las Ids==================*/
@@ -179,12 +194,12 @@ table {
 }
 
 #piePrin{
-    background-color: #17252A;
+    background-color:var(--v-color-botones);
     clear:both;
     margin-top: 30px;
-    height: 150px;
+    height: 140px;
     border-radius: .5em;
-    max-width: 90%;
+    max-width: 85%;
     margin:auto;
     text-align: center;
 }
